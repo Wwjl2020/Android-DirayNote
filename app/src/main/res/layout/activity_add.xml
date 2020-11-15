@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@color/colorPrimary"
+
+    tools:context=".Add_Text">
+
+    <TextView
+
+        android:id="@+id/showTime"
+
+        android:textSize="24dp"
+
+        android:layout_width="match_parent"
+
+        android:background="@color/colorPrimary"
+
+        android:layout_height="wrap_content"
+
+        android:paddingRight="10dp"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:orientation="horizontal"
+
+        android:background="@color/colorPrimary"
+
+        android:layout_height="70dp">
+
+
+
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textSize="30dp"
+
+            android:text="Notebook"/>
+
+
+
+        <Button
+
+            android:id="@+id/save_text"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="70dp"
+
+            android:textSize="30dp"
+
+            android:background="@drawable/check_button"
+
+            android:text="Save"
+
+            android:layout_marginLeft="40dp"/>
+
+
+        <Button
+
+            android:id="@+id/return_text"
+
+            android:layout_width="wrap_content"
+
+            android:background="@drawable/check_button"
+
+            android:layout_height="70dp"
+
+            android:textSize="30dp"
+
+            android:text="Back"
+
+            android:layout_marginLeft="15dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+
+        android:id="@+id/add_author"
+
+        android:textSize="30dp"
+
+        android:layout_width="match_parent"
+
+        android:hint="Author"
+
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:id="@+id/add_title"
+
+        android:textSize="30dp"
+
+        android:layout_width="match_parent"
+
+        android:hint="Title"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+
+        android:id="@+id/add_context"
+
+        android:textSize="30dp"
+
+        android:hint="Content"
+
+        android:gravity="top|left"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
+
+
+

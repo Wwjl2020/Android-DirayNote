@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@color/colorPrimary"
+
+    tools:context=".Update_Text">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="登录入口"
+        android:textSize="80sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.73"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/phone_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:digits="0,1,2,3,4,5,6,7,8,9"
+        android:hint="Phone"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:digits="0,1,2,3,4,5,6,7,8,9,qwertyuiopasdfghjklzxcvbnm,_,."
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:maxLength="18"
+        android:textColor="@android:color/holo_blue_light" />
+
+
+        <Button
+            android:id="@+id/signUp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="20dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_light" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <CheckBox
+                android:id="@+id/remember_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember Password"
+                android:textColor="@android:color/holo_blue_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
